@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <header>
+      <div id="view-higscore" class="header view-higscore">
+        <a href="/score.html" class="">View HighScore </a>
+
+        <h3 id="time"></h3>
+      </div>
+    </header>
+    <div class="container">
+      <main>
+        <section id="start" class="introduction">
+          <h1>Coding Quiz App Challenge</h1>
+          <p>
+            Try to answer the following code-related questions within the time
+            score/time by ten seconds!
+          </p>
+          <button id="btn-start" class="btn-start">Start</button>
+        </section>
+        <section class="questions-section hidden">
+          <ul>
+            <h3 class="question-list"></h3>
+          </ul>
+          <ol class="answers-list"></ol>
+        </section>
+        <section id="initials" class="initials"></section>
+      </main>
+    </div>
+    <p id="answer-type" class="answer-type"></p>
+    <script src="./assets/questions.js"></script>
+  </body>
+</html>

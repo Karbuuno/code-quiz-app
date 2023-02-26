@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 1px solid;
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/* controlling everything inside container */
+.container > * {
+  margin: 15px;
+  line-height: 20px;
+}
+.container p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+/*  */
+.container .btn-start {
+  position: absolute;
+  background-color: rgb(43, 237, 101);
+  border: none;
+  margin-top: 20px;
+  left: 45%;
+  width: 50px;
+  color: aliceblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.view-higscore {
+  display: flex;
+  justify-content: space-between;
+
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.header.view-higscore > * {
+  margin: 20px;
+}
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.question-list {
+  margin-top: 50px;
+}
+.answers-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.answers-list li {
+  background-color: aqua;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 25px;
+}
+.container.high-score-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  border: 1px solid;
+  margin-top: 10%;
+}
+.links-high-score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.links-high-score .clear-score {
+  background-color: brown;
+  padding: 5px 2px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+}
+.links-high-score .go-back {
+  text-decoration: none;
+  background-color: blue;
+  padding: 5px 2px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.answer-type {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 10px;
+  left: 30%;
+}
+
+.scoreForm h4 {
+  margin-bottom: 15px;
+}
+.all-done {
+  margin-bottom: 30px;
+}
+.scoreForm button {
+  border: none;
+  background-color: rgb(19, 151, 233);
+  height: 25px;
+  width: 60px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+.clear-score {
+  background-color: brown;
+}
