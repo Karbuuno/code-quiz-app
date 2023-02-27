@@ -40,7 +40,7 @@ container = document.querySelector(".container");
 var introduction = document.querySelector(".introduction");
 var questionsSection = document.querySelector(".questions-section");
 var clearScore = document.querySelector("#clear-score");
-
+// getting from html
 var timer = document.getElementById("time");
 var start = document.getElementById("btn-start");
 var questionsList = document.querySelector(".question-list");
@@ -67,7 +67,7 @@ function resetDom() {
   questionsList.innerHTML = "";
   answersList.innerHTML = "";
 }
-
+// displaying questions
 function displayQuestions(questionIndex) {
   resetDom();
   questionsList.innerHTML += `<h3>${questions[questionIndex].question}</h3>`;
@@ -75,7 +75,7 @@ function displayQuestions(questionIndex) {
     answersList.innerHTML += `<li>${questions[questionIndex].answers[j]}</li>`;
   }
 }
-
+// checking answer
 function checkAnswer(selectedAnswer) {
   // if question is not correct
   if (questions[questionIndex].correctAnswer != selectedAnswer) {
@@ -126,10 +126,10 @@ function gameIsOver() {
   scoreForm &&
     scoreForm.addEventListener("submit", function (event) {
       event.preventDefault();
-
+      // getting from localStorage
       if (initialNameInput.value) {
         var allEntries = JSON.parse(localStorage.getItem("allScore")) || [];
-
+        // creating new score
         var finalScore = {
           initials: initialNameInput.value,
           score: score,
@@ -145,7 +145,7 @@ function gameIsOver() {
         "https://karbuuno.github.io/code-quiz-app/score.html";
     });
 }
-
+// starting
 start.addEventListener("click", function () {
   introduction.classList = "introduction hidden";
   questionsSection.classList = "questions-section show";

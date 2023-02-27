@@ -29,9 +29,8 @@ a {
   font-size: 20px;
 }
 .container .introduction {
-  height: 100%;
-  margin: 10px auto;
-  width: 200px;
+  height: 200px;
+  width: auto;
 }
 .container .btn-start {
   position: absolute;
@@ -39,7 +38,7 @@ a {
   border: none;
   margin-top: 20px;
   left: 45%;
-  width: 50px;
+  width: 60px;
   color: aliceblue;
   font-size: 20px;
   cursor: pointer;
@@ -75,9 +74,9 @@ a {
 .answers-list li {
   background-color: aqua;
   margin: 10px;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 5px;
-  height: 25px;
+  height: 30px;
 }
 .container.high-score-page {
   display: flex;
@@ -110,6 +109,7 @@ a {
   font-weight: bold;
   border-radius: 5px;
   margin: 10px;
+  width: 50px;
 }
 
 .answer-type {
