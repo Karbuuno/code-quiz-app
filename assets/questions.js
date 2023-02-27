@@ -141,9 +141,8 @@ function gameIsOver() {
         alert("please enter your initial name");
         return;
       }
-      window.location.replace(
-        "https://karbuuno.github.io/code-quiz-app/score.html"
-      );
+      window.location.href =
+        "https://karbuuno.github.io/code-quiz-app/score.html";
     });
 }
 

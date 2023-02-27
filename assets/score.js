@@ -7,7 +7,7 @@ clearScore.addEventListener("click", function (e) {
   if (!confirm("Are you sure you want to clear all the scores?")) return;
   // we will clear the scores directly
   window.localStorage.clear("allScore");
-  window.location.href = "/score.html";
+  window.location.href = "https://karbuuno.github.io/code-quiz-app/score.html";
 });
 
 function showHighScore() {
