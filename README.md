@@ -1,8 +1,8 @@
 **Quiz Application**
 this application is good for quiz question and gives multiple answers. There is a time limit that user must answer the questions to get score. User's high score has been saved in Localstorage.
 This is the links.
-[github](https://karbuuno.github.io/code-quiz-app/)
-[github](https://github.com/Karbuuno/code-quiz-app/)
+[deployed link](https://karbuuno.github.io/code-quiz-app/)
+[github link](https://github.com/Karbuuno/code-quiz-app/)
 
 ![alt start page](/assets/images/image-1.png)
 ![alt questions](/assets/images/image-2.png)
