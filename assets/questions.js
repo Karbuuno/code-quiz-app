@@ -141,7 +141,7 @@ function gameIsOver() {
         alert("please enter your initial name");
         return;
       }
-      window.location.href = "/score.html";
+      window.location.replace("/score.html");
     });
 }
 
@@ -162,6 +162,7 @@ var countDown = () => {
     } else {
       clearInterval(Interval);
       timer.textContent = "Time is up";
+      answerType.textContent = "";
       gameIsOver();
     }
   }, 1000);

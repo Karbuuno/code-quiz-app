@@ -28,7 +28,11 @@ a {
   margin-top: 20px;
   font-size: 20px;
 }
-/*  */
+.container .introduction {
+  height: 100%;
+  margin: 10px auto;
+  width: 200px;
+}
 .container .btn-start {
   position: absolute;
   background-color: rgb(43, 237, 101);
